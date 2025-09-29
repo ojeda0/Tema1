@@ -42,6 +42,11 @@ public class Salida1 {
 		//Mostramos en pantalla utilizando los carácteres especiales en esta sintaxis, por orden.
 		
 		System.out.printf("Hola, mi nombre es %s %s %s y tengo %d años \n", nombre, primerApellido, segundoApellido, edad);
+		
+		
+		//Mostramos en pantalla limitando a 2 decimales, con %f y añadimos . y el número de decimales que queremos.
+
+		System.out.printf("La cuenta es %.2f € \n", 32.56998989);
 
 	}
 
