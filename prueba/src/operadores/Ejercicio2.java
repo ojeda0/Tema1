@@ -8,13 +8,18 @@ public class Ejercicio2 {
 		
 		Scanner sc = new Scanner(System.in);
 		
+		
 		System.out.println("Introduce la primera nota");
+		
 		int primeraNota = sc.nextInt();
 		
+		
 		System.out.println("Introduce la segunda nota");
+		
 		int segundaNota = sc.nextInt();
 		
-		double media = (primeraNota+segundaNota)/2;
+		double media = (primeraNota+segundaNota)/2.0;
+		
 		
 		System.out.printf("Tu primera nota ha sido %d y tu segunda nota ha sido %d , tu media de nota es %.3f \n", primeraNota, segundaNota, media);
 		
