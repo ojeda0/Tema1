@@ -21,7 +21,7 @@ public class Ejercicio2 {
 		double media = (primeraNota+segundaNota)/2.0;
 		
 		
-		System.out.printf("Tu primera nota ha sido %d y tu segunda nota ha sido %d , tu media de nota es %.3f \n", primeraNota, segundaNota, media);
+		System.out.printf("Tu primera nota ha sido %d y tu segunda nota ha sido %d, tu nota media es %.3f. \n", primeraNota, segundaNota, media);
 		
 	}
 
