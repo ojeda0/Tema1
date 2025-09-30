@@ -18,6 +18,11 @@ public class Ejercicio3 {
 		
 		System.out.printf("Tienes %d años. ¿Eres mayor de edad?: %b", edad, mayorEdad);
 		
+		
+		//También podemos escribirlo así y nos ahorramos el booleano.
+		
+		System.out.printf("Tienes %d años. ¿Eres mayor de edad?: %b", edad, edad>=18);
+		
 	}
 
 }

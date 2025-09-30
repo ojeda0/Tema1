@@ -7,9 +7,9 @@ public class AtajosTeclado {
 		/* ATAJOS DE TECLADO
 		 * 
 		 * Ctrl + Shift + 7 - Comentar las líneas seleccionadas.
-		 * Ctrl + Shift + O - AutoImports
-		 * F11 ejecutar Java Application
-		 * 
+		 * Ctrl + Shift + O - AutoImports.
+		 * F11 - ejecutar Java Application.
+		 * Ctrl + Shift + F - Estructura el documento bien.
 		 */
 
 	}
