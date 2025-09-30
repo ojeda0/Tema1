@@ -2,7 +2,7 @@ package operadores;
 
 import java.util.Scanner;
 
-public class Ejercicio5logicos {
+public class Ejercicio5Logicos {
 
 	public static void main(String[] args) {
 		
