@@ -10,6 +10,8 @@ public class AtajosTeclado {
 		 * Ctrl + Shift + O - AutoImports.
 		 * F11 - ejecutar Java Application.
 		 * Ctrl + Shift + F - Estructura el documento bien.
+		 * Shift + Flecha - Letra a letra para seleccionar.
+		 * Ctrl + Shift + Flecha - Palabra a palabra para seleccionar.
 		 */
 
 	}
