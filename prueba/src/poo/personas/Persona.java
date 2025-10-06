@@ -21,4 +21,12 @@ public class Persona {
 		System.out.printf("Mi nombre es %s, tengo %d años y mido %.2f metros. \n", nombre, edad, estatura);
 	}
 	
+	void cumplirAnyos() {
+		edad++;
+	}
+	
+	void crecer(double incremento) {
+		estatura = estatura + incremento;
+	}
+	
 }

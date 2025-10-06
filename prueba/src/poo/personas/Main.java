@@ -37,10 +37,22 @@ public class Main {
 		// Así aplicamos que los objetos realicen acciones.
 		
 		persona1.saludar();
-		persona3.saludar();
 		persona1.presentarse();
+		persona3.saludar();
 		persona3.presentarse();
 		
+	
+		// Podemos hacer que cumplan años y ver si su edad aumenta. Lo mismo con el crecimiento.
+		
+		persona1.cumplirAnyos();
+		persona3.cumplirAnyos();
+		persona1.crecer(0.15);
+		persona3.crecer(0.2);
+		
+		System.out.println(persona1.edad);
+		System.out.println(persona1.estatura);
+		System.out.println(persona3.edad);
+		System.out.println(persona3.estatura);
 	}
 
 }
