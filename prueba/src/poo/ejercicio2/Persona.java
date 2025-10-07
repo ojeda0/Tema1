@@ -18,6 +18,7 @@ public class Persona {
 		ultimaPersona = nombre;
 	}
 	
+	// MÉTODOS
 	static void mostrarTotalPersonas() {
 		System.out.println(contador);
 	}
