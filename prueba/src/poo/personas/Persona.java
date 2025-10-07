@@ -8,13 +8,16 @@ public class Persona {
 	int edad;
 	double estatura;
 	
+	static String diaDeLaSemana = "Viernes";
+	
 	
 	// Declaramos los métodos: saludar , 
 	
 	// Void no devuelve nada, no se puede reutilizar sus datos.
 	
-	void saludar() {
-		System.out.println("¡Hola!");
+	void saludar(String nombre) {
+		System.out.printf("¡Hola, %s! Soy %s. \n", nombre, this.nombre);
+		System.out.printf("Estamos a %s. \n", diaDeLaSemana);
 	}
 	
 	void presentarse() {

@@ -29,16 +29,16 @@ public class Main {
 		
 		persona3.nombre = "Manuel";
 		persona3.edad = 30;
-		persona3.estatura = 1.85;
+		persona3.estatura = 1.80;
 		
 		System.out.println(persona3.nombre);
 		
 		
 		// Así aplicamos que los objetos realicen acciones.
 		
-		persona1.saludar();
+		persona1.saludar("Mario");
 		persona1.presentarse();
-		persona3.saludar();
+		persona3.saludar("Mario");
 		persona3.presentarse();
 		
 	
@@ -47,7 +47,7 @@ public class Main {
 		persona1.cumplirAnyos();
 		persona3.cumplirAnyos();
 		persona1.crecer(0.15);
-		persona3.crecer(0.2);
+		persona3.crecer(0.05);
 		
 		System.out.println(persona1.edad);
 		System.out.println(persona1.estatura);
