@@ -8,18 +8,29 @@ public class Persona {
 	
 	// ATRIBUTOS ESTÁTICOS
 	static int contador = 0;
-	static String ultimaPersona;
+	static String ultimoNombre = "";
+	static Persona ultimaPersona = null;
 	
 	// CONSTRUCTOR
 	Persona(String nombre, int edad) {
 		this.nombre = nombre;
 		this.edad = edad;
 		contador++;
-		ultimaPersona = nombre;
+		ultimoNombre = nombre;
+		ultimaPersona = this;
 	}
 	
-	// MÉTODOS
+	// MÉTODOS ESTÁTICOS
 	static void mostrarTotalPersonas() {
 		System.out.println(contador);
+	}
+	
+	static void mostrarUltimoNombre() {
+		System.out.println(ultimoNombre);
+	}
+	
+	static void mostrarUltimaPersona() {
+		System.out.printf("Última persona creada: %s.\n"
+						+ "Edad: %d años.\n", ultimaPersona.nombre, ultimaPersona.edad);
 	}
 }

@@ -8,6 +8,17 @@ public class Main {
 		System.out.println(persona1.nombre);
 		
 		Persona.mostrarTotalPersonas();
+		Persona.mostrarUltimoNombre();
+		Persona.mostrarUltimaPersona();
+		
+		
+		
+		Persona persona2 = new Persona("Abraham", 24);
+		System.out.println(persona2.nombre);
+		
+		Persona.mostrarTotalPersonas();
+		Persona.mostrarUltimoNombre();
+		Persona.mostrarUltimaPersona();
 	}
 
 }
