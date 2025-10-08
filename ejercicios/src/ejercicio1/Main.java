@@ -20,6 +20,8 @@ public class Main {
 		
 		rectangulo1.calcularAreaPerimetro();
 		
+		sc.close();
+		
 
 	}
 
