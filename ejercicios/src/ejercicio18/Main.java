@@ -16,11 +16,10 @@ public class Main {
 		// LLAMAMOS AL CONSTRUCTOR
 		NumeroInvertido numero1 = new NumeroInvertido(numero);
 		
-		// LLAMAMOS AL MÉTODO DEL OBJETO CREADO POR EL CONSTRUCTOR
+		// LLAMAMOS AL MÉTODO PARA EL OBJETO CREADO POR EL CONSTRUCTOR
 		numero1.invertirNumero();
 		
 		// CERRAMOS ESCÁNER
 		sc.close();
 	}
-
 }
