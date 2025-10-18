@@ -50,6 +50,12 @@ public class DistanciaEntrePuntos {
 	}
 	
 	public void mostrarDistancia() {
+		double distancia = Math.sqrt(Math.pow((this.x2-this.x1), 2)+Math.pow((this.y2-this.y1), 2));
 		
+		System.out.printf("El valor del punto x1 introducido ha sido: %.2f\n"
+				+ "El valor del punto y1 introducido ha sido: %.2f\n"
+				+ "El valor del punto x2 introducido ha sido: %.2f\n"
+				+ "El valor del punto y2 introducido ha sido: %.2f\n"
+				+ "La distancia entre estos dos puntos es: %.2f\n", this.x1, this.y1, this.x2, this.y2, distancia);
 	}
 }
