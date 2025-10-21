@@ -54,7 +54,7 @@ public class ViajeCiclista {
 		int horaLlegadaSegundos = horaSalidaSegundos + this.tiempoTotalSegundos;
 		
 		int horaLlegada = (horaLlegadaSegundos / 3600) % 24;
-		int minutoLlegada = (horaLlegadaSegundos % 3600) / 60;
+		int minutoLlegada = (horaLlegadaSegundos / 60) % 60;
 		int segundoLlegada = horaLlegadaSegundos % 60;
 		
 		System.out.printf("La hora de salida introducida es %d:%d:%d y el tiempo total tardado introducido es de %d segundos.\n"

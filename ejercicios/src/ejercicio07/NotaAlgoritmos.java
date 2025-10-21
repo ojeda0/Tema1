@@ -57,7 +57,7 @@ public class NotaAlgoritmos {
 	
 	public void setTrabajoFinal(double trabajoFinal) {
 		this.trabajoFinal = trabajoFinal;
-	}
+	} 
 	
 	public void calcularNotaFinal() {
 		double porcentaje1 = (((this.parcial1+this.parcial2+this.parcial3))/3)*0.55;
