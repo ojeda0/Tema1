@@ -42,7 +42,7 @@ public class EvaluacionTest {
 	public void calcularNotaFinal() {
 		int puntosTotales = (this.correctas + this.incorrectas + this.blancas)*5;
 		int notaFinal = (this.correctas*5)-(this.incorrectas);
-		double sobreDiez = (notaFinal*1.0/puntosTotales)*10.0;
+		double sobreDiez = (notaFinal/puntosTotales)*10.0;
 		
 		System.out.printf("Número de respuestas correctas: %d\n"
 				+ "Número de respuestas incorrectas: %d\n"
