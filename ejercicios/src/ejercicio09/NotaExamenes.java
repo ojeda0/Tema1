@@ -36,5 +36,4 @@ public class NotaExamenes {
 				+ "Tu media deseada es un %.2f\n"
 				+ "La nota que debes sacar en el siguiente examen para llegar a la media es %.2f y esta vale un 60 %%.\n", this.nota1, this.mediaDeseada, notaNecesaria);
 	}
-
 }
