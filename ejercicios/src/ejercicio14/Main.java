@@ -16,7 +16,7 @@ public class Main {
 		System.out.println("Introduzca la velocidad del primer coche, el que ha salido antes (Km/h):");
 		double velocidad1 = sc.nextDouble();
 		
-		System.out.println("Introduzca la velocidad del segundo coche, el que ha salido después (Km/h):");
+		System.out.println("Introduzca la velocidad del segundo coche, el que ha salido después (Km/h). Debe ser más rápido que el primero:");
 		double velocidad2 = sc.nextDouble();
 		
 		// LLAMAMOS CONSTRUCTOR
